@@ -1,0 +1,204 @@
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content-div {
+            background-image: linear-gradient(150deg, rgb(113, 144, 247), rgb(92, 238, 111));
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .bibi {
+        z-index: 2;
+    }
+
+
+        .nav a {
+            float: left;
+            list-style-type: none;
+            margin: 20px;
+            text-decoration: none;
+            align-items: center;
+            color: white;
+            padding: 4px 6px;
+        }
+
+        .nav a:hover {
+            background-color: rgb(10, 233, 84);
+            padding: 6px;
+        }
+
+        h4 {
+            margin-top: 35px;
+            height: 50px;
+            padding: 4px 6px;
+            align-content: center;
+            box-shadow: 1px 1px 2px 1px;
+            border-radius: 20px;
+            margin-left: 10px;
+            color: white;
+        }
+
+        h4:hover {
+            background-color: rgb(10, 233, 84);
+        }
+
+        #img {
+            /* margin: 5px; */
+            width: 100%;
+            background-color: green;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 27px;
+        }
+
+        .img1 {
+            /* border: 2px solid yellow; */
+            width: 415px;
+            height: 500px;
+            padding: 5px;
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            /* position: relative; */
+            /* float: left; */
+            /* z-index: 1;  */
+        }
+
+
+        .img2 {
+            /* left: 400px; */
+            /* margin-top: 100px; */
+            width: 415px;
+            height: 500px;
+            /* border: 2px solid red; */
+            padding: 5px;
+            /* z-index: 1; */
+            /* left: 350px;
+            top: 300px; */
+        }
+
+        .img3 {
+            /* margin-right: 50px; */
+            width: 415px;
+            height: 500px;
+            /* border: 2px dotted blue; */
+            padding: 5px;
+            /* position: absolute; */
+            /* z-index: -2; */
+            /* float: left; */
+        }
+
+        .check {
+            background-image: radial-gradient( rgb(9, 9, 14),rgb(40, 70, 2), green);
+            /* border: 2px solid yellow; */
+            height: 150px;
+            width: 100%;
+            text-align: center;
+            align-content: center;
+        }
+
+        h1 {
+            color: white;
+            /* animation-name: example1;
+            animation-duration: 30s;
+            animation-delay: -2s;
+            animation-timing-function: linear; */
+        }
+        /* @keyframes example1{
+            0% {color: white;}
+            25% {color: yellow;}
+            50% {color: red;}
+            100% {color: green;}
+        } */
+
+        .formDiv {
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            background-image: conic-gradient(rgb(2, 54, 18), rgb(0, 14, 2), rgb(1, 56, 1));
+
+            width: 100%;
+            /* height: 250px; */
+        }
+
+        #form-Container {
+            /* display: flex; */
+            margin: 10px;
+            background-color: rgba(1, 36, 10, 0.822);
+            box-shadow: 1px 2px;
+            width: 300px;
+            height: 250px;
+        }
+
+        .form {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        label {
+            text-align: center;
+            margin: 10px;
+            color: white;
+        }
+
+        input {
+            width: 90%;
+            text-align: center;
+            margin: 10px;
+            padding: 10px 12px;
+            margin-left: 12px;
+        }
+
+        #sendButton button {
+            margin: 12px;
+            background-color: rgb(3, 90, 16);
+            color: white;
+        }
+
+        .footer {
+            width: 100%;
+            height: 220px;
+            background-image: linear-gradient(rgb(12, 14, 13), rgb(0, 26, 255), green);
+            text-align: center;
+            /* align-content: center; */
+        }
+
+        .paragraph p {
+            color: white;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .contactBar {
+            text-align: center;
+        }
+
+        /* #downBar h1, a{
+            float: left;
+            list-style-type: none;
+            margin: 10px;
+            text-decoration: none;
+            /* align-items: center; */
+        /* text-align: center; */
+        /* color: white; */
+        /* padding: 4px 6px;
+            font-size: larger;
+        }  */
+        .link {
+            /* text-align: center; */
+            flex-direction: column;
+            color: white;
+            font-size: large;
+        }
+
+        .downBar {
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+        }
