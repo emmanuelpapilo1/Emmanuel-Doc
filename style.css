@@ -11,9 +11,10 @@
             width: 100%;
             justify-content: space-between;
         }
+
         .bibi {
-        z-index: 2;
-    }
+            z-index: 3;
+        }
 
 
         .nav a {
@@ -94,7 +95,7 @@
         }
 
         .check {
-            background-image: radial-gradient( rgb(9, 9, 14),rgb(40, 70, 2), green);
+            background-image: radial-gradient(rgb(9, 9, 14), rgb(40, 70, 2), green);
             /* border: 2px solid yellow; */
             height: 150px;
             width: 100%;
@@ -109,6 +110,7 @@
             animation-delay: -2s;
             animation-timing-function: linear; */
         }
+
         /* @keyframes example1{
             0% {color: white;}
             25% {color: yellow;}
